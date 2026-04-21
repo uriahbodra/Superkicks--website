@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SuperKicks - About Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .topbar {
+      background: #770b0b;
+      color: white;
+      text-align: center;
+      padding: 8px;
+      font-size: 13px;
+    }
+
+    .nav {
+      background: gray;
+      padding: 16px 40px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .nav a {
+      color: white;
+      margin-right: 20px;
+      text-decoration: none;
+    }
+
+    .hero {
+      background: #770b0b;
+      padding: 80px 40px;
+      text-align: center;
+      color: white;
+    }
+
+    .about-section {
+      padding: 60px 40px;
+      display: flex;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .about-section img {
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .values {
+      background: #f5f5f5;
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .flex {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      border: 1px solid #ddd;
+      background: white;
+      padding: 24px;
+      width: 220px;
+    }
+
+    .team {
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .team-card {
+      border: 1px solid #ddd;
+      padding: 20px;
+      width: 200px;
+    }
+
+    .team-card img {
+      border-radius: 50%;
+    }
+
+    .cta {
+      background: #770b0b;
+      padding: 60px 40px;
+      text-align: center;
+      color: white;
+    }
+
+    .btn {
+      background: white;
+      color: #770b0b;
+      padding: 12px 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #770b0b;
+      padding: 30px 40px;
+    }
+
+    footer a {
+      color: white;
+      margin-right: 16px;
+      text-decoration: none;
+    }
+
+    /* MOBILE */
+    @media (max-width: 768px) {
+      .nav {
+        flex-direction: column;
+      }
+
+      .about-section {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: 28px;
+      }
+    }
+
+    /* TABLET */
+    @media (min-width: 769px) and (max-width: 1024px) {
+      .about-section {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="topbar">
+    FREE SHIPPING ON ALL ORDERS | SNEAKERS AND APPAREL
+  </div>
+
+  <div class="nav">
+    <a href="index.html"><b>SUPERKICKS</b></a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="#">Cart (0)</a>
+  </div>
+
+  <div class="hero">
+    <h1>ABOUT US</h1>
+    <p>THE STORY BEHIND THE KICKS</p>
+  </div>
+
+  <div class="about-section">
+    <img src="https://picsum.photos/500/350?random=20">
+    <div>
+      <h2 style="color:#770b0b;">OUR STORY</h2>
+      <p>
+        SuperKicks was born out of a passion for sneaker culture and street style.
+        What started as a small collection has grown into one of the most trusted destinations.
+      </p>
+      <p>
+        We believe the right pair of kicks defines your style and confidence.
+      </p>
+    </div>
+  </div>
+
+  <div class="values">
+    <h2 style="color:#770b0b;">WHAT WE STAND FOR</h2>
+
+    <div class="flex">
+      <div class="card">👟 <h3>AUTHENTICITY</h3><p>100% real products</p></div>
+      <div class="card">🚀 <h3>PASSION</h3><p>We love sneaker culture</p></div>
+      <div class="card">🤝 <h3>COMMUNITY</h3><p>Built for sneakerheads</p></div>
+      <div class="card">⭐ <h3>QUALITY</h3><p>Only the best</p></div>
+    </div>
+  </div>
+
+  <div class="team">
+    <h2 style="color:#770b0b;">MEET THE TEAM</h2>
+
+    <div class="flex">
+      <div class="team-card">
+        <img src="https://picsum.photos/200?random=30">
+        <h3>DINO JAMES</h3>
+        <p>Founder & CEO</p>
+      </div>
+
+      <div class="team-card">
+        <img src="https://picsum.photos/200?random=31">
+        <h3>MAYA CHEN</h3>
+        <p>Head of Curation</p>
+      </div>
+
+      <div class="team-card">
+        <img src="https://picsum.photos/200?random=32">
+        <h3>DANIEL OBI</h3>
+        <p>Operations Manager</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta">
+    <h2>READY TO FIND YOUR PAIR?</h2>
+    <p>Shop the latest drops at Superkicks.</p>
+    <a href="index.html" class="btn">Shop Now</a>
+  </div>
+
+  <footer>
+    <a href="#">Refunds and Cancellation</a>
+    <a href="#">Terms and Conditions</a>
+    <a href="#">Contact Us</a>
+  </footer>
+
+</body>
+</html>
+

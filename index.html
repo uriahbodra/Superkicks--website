@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SuperKicks - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body { margin:0; font-family: Arial; }
+
+    .topbar {
+      background:#770b0b;
+      color:white;
+      text-align:center;
+      padding:8px;
+      font-size:13px;
+    }
+
+    .nav {
+      background:gray;
+      padding:16px 40px;
+      display:flex;
+      flex-wrap:wrap;
+    }
+
+    .nav a {
+      color:white;
+      margin-right:20px;
+      text-decoration:none;
+    }
+
+    .hero {
+      background:#770b0b;
+      padding:80px 40px;
+      text-align:center;
+      color:white;
+    }
+
+    .btn {
+      background:white;
+      color:#770b0b;
+      padding:12px 30px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+
+    .section {
+      padding:20px 40px;
+    }
+
+    .flex {
+      display:flex;
+      gap:16px;
+      flex-wrap:wrap;
+    }
+
+    .card {
+      border:1px solid #ddd;
+      padding:20px;
+      width:220px;
+      text-align:center;
+      background:white;
+    }
+
+    .card img {
+      width:100%;
+      height:auto;
+    }
+
+    footer {
+      background:#770b0b;
+      padding:30px 40px;
+    }
+
+    footer a {
+      color:white;
+      margin-right:16px;
+      text-decoration:none;
+    }
+
+    /* MOBILE */
+    @media (max-width:768px) {
+      .nav {
+        flex-direction:column;
+      }
+
+      .flex {
+        flex-direction:column;
+        align-items:center;
+      }
+
+      .hero h1 {
+        font-size:28px;
+      }
+    }
+
+    /* TABLET */
+    @media (min-width:769px) and (max-width:1024px) {
+      .flex {
+        justify-content:center;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="topbar">
+    FREE SHIPPING ON ALL ORDERS | SNEAKERS AND APPAREL
+  </div>
+
+  <div class="nav">
+    <a href="#"><b>SUPERKICKS</b></a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div class="hero">
+    <h1>GET YOUR OWN KICKS</h1>
+    <p>POP CULTURE RETRO KICKS EVERYTHING YOU NEED</p>
+    <a href="#" class="btn">Shop Now</a>
+  </div>
+
+  <div class="section">
+    <h2>NEW ARRIVAL</h2>
+    <div class="flex">
+      <div class="card">
+        <img src="https://picsum.photos/200?random=1">
+        <h3>ADIDAS</h3>
+        <p>SUPERSTAR II</p>
+      </div>
+
+      <div class="card">
+        <img src="https://picsum.photos/200?random=2">
+        <h3>NEW BALANCE</h3>
+        <p>NB 530</p>
+      </div>
+
+      <div class="card">
+        <img src="https://picsum.photos/200?random=3">
+        <h3>REEBOK</h3>
+        <p>PUMP OMNI</p>
+      </div>
+
+      <div class="card">
+        <img src="https://picsum.photos/200?random=4">
+        <h3>ASICS</h3>
+        <p>GEL-1130</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>APPAREL</h2>
+    <div class="flex">
+
+      <div class="card">
+        <img src="https://picsum.photos/200?random=5">
+        <p>PANTS</p>
+        <h3>₹999</h3>
+      </div>
+
+      <div class="card">
+        <img src="https://picsum.photos/200?random=6">
+        <p>JACKET</p>
+        <h3>₹1,199</h3>
+      </div>
+
+      <div class="card">
+        <img src="https://picsum.photos/200?random=7">
+        <p>SHORTS</p>
+        <h3>₹849</h3>
+      </div>
+
+      <div class="card">
+        <img src="https://picsum.photos/200?random=8">
+        <p>T-SHIRT</p>
+        <h3>₹1,499</h3>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>OUR STORES</h2>
+    <div class="flex">
+      <img src="https://picsum.photos/200?random=9">
+      <img src="https://picsum.photos/200?random=10">
+      <img src="https://picsum.photos/200?random=11">
+      <img src="https://picsum.photos/200?random=12">
+    </div>
+  </div>
+
+  <footer>
+    <a href="#">Refunds</a>
+    <a href="#">Terms</a>
+    <a href="#">Contact</a>
+  </footer>
+
+</body>
+</html>
+
